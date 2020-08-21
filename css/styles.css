@@ -1,0 +1,147 @@
+body{
+    margin: auto;
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #f08a5d;
+    color: #ffffff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.iphone-image{
+    width: 50%;   
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+p{
+    color: #8f8f8f;
+}
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+}
+
+/* Download Buttons */
+
+.download-link{
+    margin: 5% 3% 5% 0;
+}
+    
+/* Features Section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #f08a5d;
+    margin-bottom: 1.5rem;
+}
+.icon:hover{
+    color:#fa6424 ;
+}
+
+/* Testimonial */
+
+#testimonials{
+    text-align: center;
+    background-color: #f08a5d;;
+    color: #fff;
+}
+.testimonial-image{
+    width: 150px;
+    border-radius: 100%;
+    margin: 3%;
+}
+#press{
+    background-color:#f08a5d;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}-
+.pricing-column {
+    padding: 3% 2%;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .iphone-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #f08a5d;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.end-line{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-media{
+    margin: 20px 10px;
+    color: #f08a5d;
+}
